@@ -1,0 +1,9 @@
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+fecha_inicio TEXT NOT NULL,
+fecha_fin TEXT NOT NULL,
+hora TEXT,
+texto TEXT NOT NULL,
+color TEXT NOT NULL,
+prioridad TEXT NOT NULL DEFAULT 'Media',
+tipo TEXT NOT NULL DEFAULT 'Tarea',
+proyecto_id INTEGER
